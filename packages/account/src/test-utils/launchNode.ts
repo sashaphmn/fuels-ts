@@ -214,7 +214,6 @@ export const launchNode = async ({
     }
 
     const removeSideffects = () => {
-      child.stderr.removeAllListeners();
       if (existsSync(tempDir)) {
         rmSync(tempDir, { recursive: true });
       }
@@ -233,7 +232,6 @@ export const launchNode = async ({
       }
       childState.isDead = true;
 
-      removeSideffects();
       if (child.pid !== undefined) {
         try {
           process.kill(-child.pid);
