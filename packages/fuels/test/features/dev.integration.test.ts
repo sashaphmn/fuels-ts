@@ -43,8 +43,6 @@ describe('dev2', () => {
         detached: true,
       });
 
-      const msg = 'Dev completed successfully!';
-
       let devCompletedResolver: (value?: never) => void;
       const devCompleted = new Promise((resolve) => {
         devCompletedResolver = resolve;
@@ -52,9 +50,7 @@ describe('dev2', () => {
 
       devProcess.stdout.on('data', (chunk: string | Buffer) => {
         const text = chunk.toString();
-        // eslint-disable-next-line no-console
-        console.log(text);
-        if (text.indexOf(msg) !== -1) {
+        if (text.indexOf('Dev completed successfully!') !== -1) {
           devCompletedResolver();
         }
       });
