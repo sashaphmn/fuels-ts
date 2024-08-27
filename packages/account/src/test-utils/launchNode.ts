@@ -214,6 +214,7 @@ export const launchNode = async ({
     }
 
     const removeSideffects = () => {
+      child.stderr.removeAllListeners();
       if (existsSync(tempDir)) {
         rmSync(tempDir, { recursive: true });
       }
