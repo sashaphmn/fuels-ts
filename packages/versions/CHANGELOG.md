@@ -1,5 +1,7 @@
 # @fuel-ts/versions
 
+## 0.94.4
+
 ## 0.94.3
 
 ### Patch Changes

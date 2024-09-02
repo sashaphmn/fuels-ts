@@ -1,5 +1,19 @@
 # Change Log
 
+## 0.94.4
+
+### Patch Changes
+
+- @fuel-ts/abi-coder@0.94.4
+- @fuel-ts/account@0.94.4
+- @fuel-ts/address@0.94.4
+- @fuel-ts/errors@0.94.4
+- @fuel-ts/interfaces@0.94.4
+- @fuel-ts/math@0.94.4
+- @fuel-ts/program@0.94.4
+- @fuel-ts/transactions@0.94.4
+- @fuel-ts/utils@0.94.4
+
 ## 0.94.3
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # create-fuels
 
+## 0.94.4
+
+### Patch Changes
+
+- cc1aa12: build(deps): bump the deps-patch group with 9 updates
+
 ## 0.94.3
 
 ### Patch Changes

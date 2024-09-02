@@ -1,5 +1,16 @@
 # Change Log
 
+## 0.94.4
+
+### Patch Changes
+
+- @fuel-ts/crypto@0.94.4
+- @fuel-ts/errors@0.94.4
+- @fuel-ts/hasher@0.94.4
+- @fuel-ts/interfaces@0.94.4
+- @fuel-ts/math@0.94.4
+- @fuel-ts/utils@0.94.4
+
 ## 0.94.3
 
 ### Patch Changes
